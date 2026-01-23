@@ -8,7 +8,10 @@
 
 
 
-一个基于 Cloudflare Pages 的域名管理系统，帮助您轻松管理和监控多个域名的状态、到期时间等信息。
+一个基于 Cloudflare Pages 的域名管理系统，帮助您轻松管理和监控多个域名的状态、到期时间等信息。需配合serv00或者[DScheck](https://github.com/frankiejun/DScheck)使用.
+
+## 视频教学  
+[Domains-Support 配合SERV00/hostUNO，堪称养域名神器！](https://youtu.be/gPJ7tjRKnzo?si=X7zD4eiW7AyeXshQ)
 
 ## 功能特点
 
@@ -187,6 +190,10 @@
 - `USER`: 管理员用户名
 - `PASS`: 管理员密码
 - `API_TOKEN`: API 访问令牌
+
+## 调度器
+
+由于pages项目无法自我定时唤醒，需要配合[DScheck](https://github.com/frankiejun/DScheck)项目一同使用。
 
 ## 贡献指南
 
